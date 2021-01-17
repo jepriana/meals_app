@@ -1,6 +1,6 @@
 # meas_app
 
-A new Flutter project.
+A beautiful meal catalog app made with Flutter.
 
 ## Getting Started
 
