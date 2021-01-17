@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
         CategoryMealsScreen.routeName: (ctx) =>
             CategoryMealsScreen(_availableMeals),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
-        FilterScreens.routeName: (ctx) => FilterScreens(_setFilters),
+        FilterScreens.routeName: (ctx) => FilterScreens(_filters, _setFilters),
       },
       onGenerateRoute: (settings) {
         print(settings.arguments);
